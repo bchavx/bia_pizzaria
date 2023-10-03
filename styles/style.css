@@ -1,0 +1,21 @@
+:root{
+    --cor-primaria:#F07807;
+    --cor-secundaria: #FEF2E7;
+    --cor-branco: #fff;
+    --cor-preto: #000;
+    --cor-sombra: #0008;
+}
+
+body{
+    background-color: var(--cor-secundaria);
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    background-color: var(--cor-secundaria);
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
