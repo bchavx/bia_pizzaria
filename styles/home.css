@@ -16,6 +16,12 @@
     padding-left: 80px;
 }
 
+.texto-laranja{
+    color: var(--cor-primaria);
+}
+
+
+
 .destaque-container{
     height: 260px;
     display: flex;
@@ -66,15 +72,24 @@
     width: 140px;
 }
 
-.conteudo-container h2{
-    width: 568px;
+.info-preco{
+    background-color: var(--cor-primaria);
+    padding: 4px 8px 4px 8px;
+    border-radius: 4px;
+}
+
+.conteudo-container .texto{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     height: 520px;
+}
+
+.conteudo-container h2{
+    width: 558px;
     font-size: 4rem;
     font-weight: 400;
     font-style: italic;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .conteudo-container div{
