@@ -5,6 +5,9 @@
     --cor-preto: #000;
     --cor-sombra: #0008;
 }
+/* o comando html só funciona se o windows estiver habilitado para a animação. segue os passos: config do sistema> opções de desempenho> melhorar aparência */
+html{scroll-behavior: smooth;
+}
 
 body{
     background-color: var(--cor-secundaria);
