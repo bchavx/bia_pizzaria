@@ -1,20 +1,22 @@
-:root{
-    --cor-primaria:#F07807;
+:root {
+    --cor-primaria: #F07807;
     --cor-secundaria: #FEF2E7;
     --cor-branco: #fff;
     --cor-preto: #000;
     --cor-sombra: #0008;
 }
+
 /* o comando html só funciona se o windows estiver habilitado para a animação. segue os passos: config do sistema> opções de desempenho> melhorar aparência */
-html{scroll-behavior: smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: var(--cor-secundaria);
     font-family: 'Poppins', sans-serif;
 }
 
-.link-home{
+.link-home {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -31,31 +33,26 @@ body{
     animation: pulando 1s alternate infinite;
 }
 
-main{
+main {
     background-color: var(--cor-secundaria);
 }
 
-section{
+section {
     height: 100vh;
     width: 100%;
 }
 
-.linha{
+.linha {
     border-bottom: 3px solid var(--cor-secundaria);
 }
 
-@keyframes pulando{
-    0%{
+@keyframes pulando {
+    0% {
         transform: translateX(-50%) rotate(90deg) scale(1)
     }
-    100%{
+
+    100% {
         transform: translateX(-50%) rotate(90deg) scale(1.3);
         color: var(--cor-secundaria);
     }
-}
-
-/* TABLET */
-
-@media{
-    
 }
